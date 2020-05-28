@@ -62,7 +62,8 @@
   },
   "standard-version": {
     "scripts": {
-      "precommit": "git add -f coverage"
+      "prerelease": "npm run lint && npm run build",
+      "precommit": "npm run --silent build > /dev/null 2>&1 && git add ."
     }
   },
   "dependencies": {
