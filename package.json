@@ -1,0 +1,75 @@
+{
+  "name": "@devtin/schema-validator-doc",
+  "author": "Martin Rafael Gonzalez <tin@devtin.io>",
+  "version": "1.0.0",
+  "main": "dist/schema-validator-doc.js",
+  "module": "dist/schema-validator-doc.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:lib && yarn build:readme",
+    "build:lib": "rollup -c",
+    "build:readme": "jsdoc2md --plugin dmd-readme --template node_modules/dmd-readme/docs.hbs --files dist/schema-validator-doc.js > README.md",
+    "build:live": "nodemon -w src --exec yarn build",
+    "lint": "eslint --ext .js --ignore-path .gitignore src/",
+    "test": "NODE_ENV=test ava --serial --verbose",
+    "test:unit": "yarn test src/**/*.unit.js",
+    "release": "standard-version"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "devDependencies": {
+    "@ava/babel": "^1.0.1",
+    "@devtin/schema-validator": "^2.9.0",
+    "ava": "^3.8.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.1.0",
+    "esm": "^3.2.25",
+    "jsdoc-to-markdown": "^5.0.3",
+    "nodemon": "^2.0.4",
+    "nyc": "^15.0.1",
+    "rollup": "^2.11.0",
+    "rollup-plugin-alias": "^2.2.0",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "standard-version": "^8.0.0"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.test.js",
+      "src/**/*.unit.js"
+    ],
+    "require": [
+      "esm"
+    ],
+    "babel": true
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "env": {
+      "es6": true
+    },
+    "globals": {
+      "BigInt": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    }
+  },
+  "standard-version": {
+    "scripts": {
+      "precommit": "git add -f coverage"
+    }
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "handlebars": "^4.7.6",
+    "lodash": "^4.17.15",
+    "pkg-up": "^3.1.0",
+    "yamljs": "^0.3.0"
+  }
+}
