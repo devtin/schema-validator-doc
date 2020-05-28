@@ -1,0 +1,10 @@
+# {{{ name }}}
+
+{{#if description }}
+{{{description}}}
+
+{{/if}}
+{{>property-header}}
+{{#each properties}}
+{{>property property=.}}
+{{/each}}
