@@ -37,12 +37,13 @@ Converts given schema in JSON format
 
 <br><a name="schemaValidatorToMarkdown"></a>
 
-## schemaValidatorToMarkdown(jsonSchema) ⇒ <code>string</code> \| <code>\*</code>
+## schemaValidatorToMarkdown(jsonSchema) ⇒ <code>String</code>
 
 | Param | Type |
 | --- | --- |
 | jsonSchema | [<code>Array.&lt;JSONSchema&gt;</code>](#JSONSchema), [<code>JSONSchema</code>](#JSONSchema) | 
 
+**Returns**: <code>String</code> - Markdown representation  
 
 <br><a name="JSONSchema"></a>
 
