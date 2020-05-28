@@ -63,7 +63,7 @@ Handlebars.registerHelper('type', t => {
 })
 
 Handlebars.registerHelper('boolean', t => {
-  return !!t ? '*' : ''
+  return t ? '*' : ''
 })
 
 Handlebars.registerPartial('property-header', loadPartial('property-header'))
