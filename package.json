@@ -18,7 +18,8 @@
   },
   "files": [
     "dist/*",
-    "src/*"
+    "src/*",
+    "templates/*"
   ],
   "devDependencies": {
     "@ava/babel": "^1.0.1",
