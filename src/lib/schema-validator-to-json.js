@@ -3,6 +3,7 @@ import merge from 'deepmerge'
 /**
  * @typedef {Object} JSONSchema
  * @desc The parsed schema into JSON
+ * @private
  */
 
 /**

@@ -6,7 +6,7 @@
 </p>
 
 <p>
-    
+    Converts a `@devtin/schema-validator` instance into JSON
 </p>
 
 ## Installation
@@ -21,7 +21,7 @@ $ yarn add @devtin/schema-validator-doc
 
 <br><a name="schemaValidatorToJSON"></a>
 
-## schemaValidatorToJSON(schema, [options]) ⇒ [<code>JSONSchema</code>](#JSONSchema)
+## schemaValidatorToJSON(schema, [options]) ⇒ <code>JSONSchema</code>
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ $ yarn add @devtin/schema-validator-doc
 | [options] | <code>Object</code> |  |
 | [options.$name] | <code>String</code> | Name of the schema |
 
-**Returns**: [<code>JSONSchema</code>](#JSONSchema) - JSON representation of given schema  
+**Returns**: <code>JSONSchema</code> - JSON representation of given schema  
 **Description:**
 
 Converts given schema in JSON format
@@ -41,17 +41,9 @@ Converts given schema in JSON format
 
 | Param | Type |
 | --- | --- |
-| jsonSchema | [<code>Array.&lt;JSONSchema&gt;</code>](#JSONSchema), [<code>JSONSchema</code>](#JSONSchema) | 
+| jsonSchema | <code>Array.&lt;JSONSchema&gt;</code>, <code>JSONSchema</code> | 
 
 **Returns**: <code>String</code> - Markdown representation  
-
-<br><a name="JSONSchema"></a>
-
-## JSONSchema : <code>Object</code>
-**Description:**
-
-The parsed schema into JSON
-
 
 * * *
 
