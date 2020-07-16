@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/devtin/schema-validator-doc/compare/v1.0.1...v1.0.2) (2020-07-16)
+
+
+### Bug Fixes
+
+* broken markdown table ([535b4c5](https://github.com/devtin/schema-validator-doc/commit/535b4c540c4608fc55471b6e493970c0e93d412d))
+
 ### [1.0.1](https://github.com/devtin/schema-validator-doc/compare/v1.0.0...v1.0.1) (2020-07-16)
 
 ## 1.0.0 (2020-05-28)
