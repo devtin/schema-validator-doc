@@ -1,7 +1,7 @@
 # AddressSchema
 
 | Name | Type | Required | Default | Settings |
-| :--- | :--- | : --- | : --- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | state | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |  | Florida | -- |
 | line1 | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | * |  | -- |
 | line2 | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |  |  | -- |
@@ -10,7 +10,7 @@
 # UserSchema
 
 | Name | Type | Required | Default | Settings |
-| :--- | :--- | : --- | : --- | :--- |
+| :--- | :--- | :--- | :--- | :--- |
 | name | [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | * |  | -- |
 | birthday | [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date) | * |  | -- |
 | address | [AddressSchema](#AddressSchema) |  |  | -- |
