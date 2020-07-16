@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/devtin/schema-validator-doc/compare/v1.0.3...v1.0.4) (2020-07-16)
+
+
+### Bug Fixes
+
+* **chore:** include templates ([117180a](https://github.com/devtin/schema-validator-doc/commit/117180a2b2315126c9cfb6274a95844dd418c90c))
+
 ### [1.0.3](https://github.com/devtin/schema-validator-doc/compare/v1.0.2...v1.0.3) (2020-07-16)
 
 ### [1.0.2](https://github.com/devtin/schema-validator-doc/compare/v1.0.1...v1.0.2) (2020-07-16)
