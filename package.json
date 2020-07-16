@@ -2,6 +2,7 @@
   "name": "@devtin/schema-validator-doc",
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
   "version": "1.0.0",
+  "description": "Converts a `@devtin/schema-validator` instance into JSON",
   "main": "dist/schema-validator-doc.js",
   "module": "dist/schema-validator-doc.esm.js",
   "license": "MIT",
@@ -21,20 +22,21 @@
   ],
   "devDependencies": {
     "@ava/babel": "^1.0.1",
-    "@devtin/schema-validator": "^2.9.0",
-    "ava": "^3.8.2",
+    "@devtin/schema-validator": "^3.0.1",
+    "ava": "^3.10.1",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.1.0",
+    "dmd-readme": "^1.0.0",
+    "eslint": "^7.4.0",
     "esm": "^3.2.25",
-    "jsdoc-to-markdown": "^5.0.3",
+    "jsdoc-to-markdown": "^6.0.1",
     "nodemon": "^2.0.4",
-    "nyc": "^15.0.1",
-    "rollup": "^2.11.0",
+    "nyc": "^15.1.0",
+    "rollup": "^2.21.0",
     "rollup-plugin-alias": "^2.2.0",
     "rollup-plugin-babel-minify": "^10.0.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-json": "^4.0.0",
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.2"
   },
   "ava": {
     "files": [
@@ -70,7 +72,7 @@
   "dependencies": {
     "deepmerge": "^4.2.2",
     "handlebars": "^4.7.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "pkg-up": "^3.1.0",
     "yamljs": "^0.3.0"
   }
