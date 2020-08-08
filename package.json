@@ -1,7 +1,7 @@
 {
   "name": "@devtin/schema-validator-doc",
   "author": "Martin Rafael Gonzalez <tin@devtin.io>",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Converts a `@devtin/schema-validator` instance into JSON",
   "main": "dist/schema-validator-doc.js",
   "module": "dist/schema-validator-doc.esm.js",
